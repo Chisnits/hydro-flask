@@ -1,0 +1,52 @@
+li{
+    color: white;
+    list-style-type: none;
+}
+a:hover{
+    opacity: .7;
+}
+
+.loginBar{
+    /*height: 35px;*/
+    width: 100%;
+    background-color: #363636;
+}
+.promotionWrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 35px;
+}
+.promotion{
+    white-space: nowrap;
+    text-transform: uppercase;
+    color: #00a0df;
+    font-size: 13px;
+}
+.loginContainer{
+    white-space: nowrap;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 15%
+}
+.mainNav{
+    /*height: 80px;*/
+    width: 100%;
+    background-color: black;
+}
+.linkContainerCenter{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.linkContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 300px;
+}
+.cartContainer{
+    color: white;
+}
+
