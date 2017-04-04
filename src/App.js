@@ -9,7 +9,7 @@ class App extends Component {
       <div>
         <Header/>
         <div>
-        <HomeCarousel />
+        <HomeCarousel/>
         </div>
       </div>
       

@@ -1,6 +1,28 @@
-.carousel-home {
-  /*margin: 0 auto;*/
-  /*padding: 40px;*/
-  width: 100%;
-  background: #419be0;
+/*.carousel-home {
+}*/
+.tumblr{
+ background: url(../assets/tumblr.jpg);
+ background-size: contain;
+ background-repeat: no-repeat;
+ height: 500px;
+ width: 100%;
+}
+.tumblrText{
+  color: white;
+  height: 200px;
+  width: 200px;
+}
+.camping{
+ background: url(../assets/camping.jpg);
+ background-size: contain;
+ background-repeat: no-repeat;
+ height: 500px;
+ width: 100%;
+}
+.sunset{
+ background: url(../assets/sunset.jpg);
+ background-size: contain;
+ background-repeat: no-repeat;
+ height: 500px;
+ width: 100%;
 }
