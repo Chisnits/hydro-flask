@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Slider from 'react-slick';
-import '../../styles/Carousel.css';
+import '../../styles/HomeCarousel.css';
 
 class HomeCarousel extends Component {
     render() {
