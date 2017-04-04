@@ -1,9 +1,12 @@
+.st0{fill:#FFFFFF;}
+
 li{
     color: white;
     list-style-type: none;
 }
 a:hover{
     opacity: .7;
+    cursor: pointer;
 }
 
 .loginBar{
@@ -31,22 +34,45 @@ a:hover{
     width: 15%
 }
 .mainNav{
-    /*height: 80px;*/
-    width: 100%;
+    height: 70px;
     background-color: black;
+    text-transform: uppercase;
+}
+.logoWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.HFLogo{
+    /*height: 100px;*/
+    width: 150px;
+    /*float: left;*/
+
 }
 .linkContainerCenter{
+    /*width: 35%;*/
     display: flex;
     justify-content: center;
-    margin-bottom: 15px;
+    /*margin-bottom: 15px;*/
+    /*float: left;*/
 }
 .linkContainer{
+    white-space: nowrap;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 300px;
+    /*text-align: center;*/
 }
 .cartContainer{
+    /*width: 35%;*/
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; 
+}
+.cart-circle{
+    height: 50px;
+    margin-left: 15px;
 }
 

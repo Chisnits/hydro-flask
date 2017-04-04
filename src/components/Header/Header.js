@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
-import '../styles/Header.css';
+import CartCircle from './CartCircle';
+import HFLogo from './HFLogo';
+import '../../styles/Header.css';
 
 class Header extends Component {
     render() {
@@ -18,7 +20,7 @@ class Header extends Component {
                     </div>
                 </div>
                 <div className="mainNav">
-                    <img src="../assets/hfLogo.svg" />
+                    <a> <HFLogo /> </a>
                     <div className="linkContainerCenter"> 
                         <ul className="linkContainer">
                             <li><a>shop</a></li>
@@ -27,8 +29,10 @@ class Header extends Component {
                         </ul>  
                     </div>
                     <div className="cartContainer">
-                        <span> cart </span>
-                        <img src="../assets/cart-circle.svg" />
+                        <a>
+                            <span> cart  </span>
+                            <CartCircle />
+                        </a>
                     </div>
                 </div>
             </div>
