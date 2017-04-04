@@ -20,17 +20,19 @@ class Header extends Component {
                     </div>
                 </div>
                 <div className="mainNav">
-                    <a> <HFLogo /> </a>
-                    <div className="linkContainerCenter"> 
+                    <div className="logoWrapper">
+                        <a> <HFLogo /> </a>
+                    </div>
+                    {/*<div className="linkContainerCenter"> */}
                         <ul className="linkContainer">
                             <li><a>shop</a></li>
                             <li><a>customize</a></li>
                             <li><a>learn</a></li>
                         </ul>  
-                    </div>
+                    {/*</div>*/}
                     <div className="cartContainer">
                         <a>
-                            <span> cart  </span>
+                            <span className="cart"> cart  </span>
                             <CartCircle />
                         </a>
                     </div>
