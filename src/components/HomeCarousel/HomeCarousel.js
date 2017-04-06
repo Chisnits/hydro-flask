@@ -15,12 +15,14 @@ class HomeCarousel extends Component {
 
 
     return (
-    <div className='carousel-home'>
+    <div className="home-carousel">
       	<Slider {...settings}>
           <div className="tumblr">
             <div className="tumblrText">
-                <span>introducing tumblers</span> <br/>
-                <span> Your new go-to.</span> <br/>
+                <span>introducing tumblers</span> 
+                <br/>
+                <span> Your new go-to.</span>
+                <br/>
                 <span> shop tumblers</span> <span></span>
             </div>
           </div>

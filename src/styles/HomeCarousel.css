@@ -1,28 +1,29 @@
-/*.carousel-home {
-}*/
 .tumblr{
  background: url(../assets/tumblr.jpg);
- background-size: contain;
+ background-size: cover;
  background-repeat: no-repeat;
- height: 500px;
+ height: 650px;
  width: 100%;
 }
 .tumblrText{
   color: white;
-  height: 200px;
-  width: 200px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .camping{
  background: url(../assets/camping.jpg);
- background-size: contain;
+ background-size: cover;
  background-repeat: no-repeat;
- height: 500px;
+ height: 650px;
  width: 100%;
 }
 .sunset{
  background: url(../assets/sunset.jpg);
- background-size: contain;
+ background-size: cover;
  background-repeat: no-repeat;
- height: 500px;
+ height: 650px;
  width: 100%;
 }

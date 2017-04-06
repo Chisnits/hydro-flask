@@ -1,0 +1,22 @@
+.my-hydro-wallpaper{
+    background-image: url(../assets/blueAndPurple.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.my-hydro-logo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+.my-hydro-logo{
+    background-image: url(../assets/myHydroLogo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 500px;
+}

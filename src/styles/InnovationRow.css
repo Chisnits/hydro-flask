@@ -1,0 +1,59 @@
+.InnovationRowWrapper{
+    display: flex;
+    margin-top: 15px;
+}
+.innovationContainer{
+    display: flex;
+    justify-content: flex-start;
+}
+.innovation{
+    height: 150px;
+    width: 350px;
+    background-color: #f6f6f6;
+    margin-left: 75px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.InnovationShieldColor{
+    fill: #0083C1;
+}
+.parksContainer{
+    display: flex;
+    justify-content: center;
+}
+.parks{
+    height: 150px;
+    width: 350px;
+    background-color: #f6f6f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.parksHeart{
+    fill:none; 
+    stroke:#000000; 
+    stroke-width:2; 
+    stroke-miterlimit:10; 
+}
+.st1{
+    stroke-linecap:round;
+    fill:none; 
+    stroke:#000000; 
+    stroke-width:2; 
+    stroke-miterlimit:10; 
+}
+.ourStoryContainer{
+    display: flex;
+    justify-content: flex-end;
+}
+.ourStory{
+    height: 150px;
+    width: 350px;
+    background-color: #f6f6f6;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
