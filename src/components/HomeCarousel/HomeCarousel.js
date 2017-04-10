@@ -9,24 +9,43 @@ class HomeCarousel extends Component {
      infinite: true,
      slidesToScroll: 1,
      arrows: false,
-     autoplay: true,
-     autoplaySpeed: 3000
+    //  autoplay: true,
+    //  autoplaySpeed: 3000
    }
 
 
     return (
     <div className="home-carousel">
       	<Slider {...settings}>
-          <div className="tumblr">
-            <div className="tumblrText">
-                <span>introducing tumblers</span> 
-                <br/>
-                <span> Your new go-to.</span>
-                <br/>
-                <span> shop tumblers</span> <span></span>
-            </div>
+            <div className="tumblr">
+                <div className="tumblrText">
+                    <div className="tumblr-text-slide-container">
+                        <span className="slide-one-line-one">introducing tumblers</span> 
+        
+                        <span className="slide-one-line-two"> Your new go-to.</span>
+                    
+                        <span className="slide-one-line-three"> shop tumblers</span>
+                    </div>
+                </div>
           </div>
-          <div className="camping"></div>
+            <div className="camping">
+                <div className="camping-text-slide-container">
+                    <span className="slide-two-line-one">
+                        Hydro Flask Presents
+                    </span>
+                    <span className="slide-two-line-two">
+                        constant motion
+                    </span>
+                    <span className="slide-two-line-three">
+                        Ride along with Quin Schrock as <br/>
+                        he explores the wilderness of <br/>
+                        Northern California, camera in hand. 
+                    </span>
+                    <span className="slide-two-line-4">
+                        watch the film
+                    </span>
+                </div>
+            </div>
           <div className="sunset"></div>
         </Slider>
     </div>

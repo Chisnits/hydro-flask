@@ -13,12 +13,39 @@
   justify-content: center;
   align-items: center;
 }
+.tumblr-text-slide-container{
+  height: 300px;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.slide-one-line-one{
+  white-space: nowrap;
+  font-size: 30px;
+}
+.slide-one-line-two{
+  white-space: nowrap;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.slide-one-line-three{
+  white-space: nowrap;
+  font-size: 25px;
+}
 .camping{
  background: url(../assets/camping.jpg);
  background-size: cover;
  background-repeat: no-repeat;
  height: 650px;
  width: 100%;
+}
+.camping-text-slide-container{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .sunset{
  background: url(../assets/sunset.jpg);
