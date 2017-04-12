@@ -41,6 +41,11 @@
  height: 650px;
  width: 100%;
 }
+.camping-text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .camping-text-slide-container{
   color: white;
   display: flex;
