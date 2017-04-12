@@ -29,24 +29,27 @@ class HomeCarousel extends Component {
                 </div>
           </div>
             <div className="camping">
-                <div className="camping-text">
-                    <div className="camping-text-slide-container">
-                        <span className="slide-two-line-one">
-                            Hydro Flask Presents
-                        </span>
-                        <span className="slide-two-line-two">
-                            constant motion
-                        </span>
-                        <span className="slide-two-line-three">
-                            Ride along with Quin Schrock as <br/>
-                            he explores the wilderness of <br/>
-                            Northern California, camera in hand. 
-                        </span>
-                        <span className="slide-two-line-4">
-                            watch the film
-                        </span>
+                <div className="camping-text-container">
+                    <div className="camping-text">
+                        <div className="camping-text-slide-container">
+                            <span className="slide-two-line-one">
+                                Hydro Flask Presents
+                            </span>
+                            <span className="slide-two-line-two">
+                                constant <br/>
+                                motion
+                            </span>
+                            <span className="slide-two-line-three">
+                                Ride along with Quin Schrock as <br/>
+                                he explores the wilderness of <br/>
+                                Northern California, camera in hand. 
+                            </span>
+                            <span className="slide-two-line-four">
+                                watch the film
+                            </span>
+                        </div>
                     </div>
-                </div>    
+                </div>        
             </div>
           <div className="sunset"></div>
         </Slider>
