@@ -2,8 +2,53 @@
     background-color: black;
     height: 500px;
     width: 100%;
-    display: flex;
+    /*display: flex;
+    align-items: center;*/
 }
-.black-footer-logo-container{
+.company-links{
+    /*display: flex;
+    flex-wrap: wrap;*/
+}
+.company-links-column-1{
+    width: 150px;
+    height: 200px;
+    float: left;
+}
+.company-list{
     display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100%;
+    border-right: solid white 2px;
+}
+.support-list{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100%;
+}
+.company-links-column-2{
+    width: 150px;
+    height: 200px;
+    float: left;
+}
+.company-links-column-3{
+    width: 150px;
+    height: 200px;
+    float: left;
+}
+.stay-in-touch-column{
+    /*display: flex;
+    justify-content: flex-end;*/
+    float: right;
+    white-space: nowrap;
+    color: white;
+}
+.newsletter{
+    font-size: 15px;
+    letter-spacing: 0;
+    color: #777;
+    background-color: #FFF;
+    text-align: left;
+    padding-left: 1.25em;
 }

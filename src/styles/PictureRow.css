@@ -7,7 +7,7 @@
     background-image: url(../assets/girlDrinkingGreenHF.jpg);
     background-repeat: no-repeat;
     background-size: contain;
-    height: 500px;
+    /*height: 500px;*/
     width: 300px;
     margin-bottom: 25px;
     margin-right: 15px;
@@ -16,7 +16,7 @@
     background-image: url(../assets/familyWithDog.jpg);
     background-repeat: no-repeat;
     background-size: contain;
-    height: 500px;
+    /*height: 500px;*/
     width: 300px;
     margin-bottom: 25px;
     margin-right: 15px;
@@ -25,7 +25,7 @@
     background-image: url(../assets/surfboard.jpg);
     background-repeat: no-repeat;
     background-size: contain;
-    height: 500px;
+    /*height: 500px;*/
     width: 300px;
     margin-bottom: 25px;
     margin-right: 15px;
@@ -34,7 +34,7 @@
     background-image: url(../assets/greenHFisland.jpg);
     background-repeat: no-repeat;
     background-size: contain;
-    height: 500px;
+    /*height: 500px;*/
     width: 300px;
     margin-bottom: 15px;
 }

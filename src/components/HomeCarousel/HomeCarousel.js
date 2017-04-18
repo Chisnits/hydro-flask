@@ -9,15 +9,15 @@ class HomeCarousel extends Component {
      infinite: true,
      slidesToScroll: 1,
      arrows: false,
-    //  autoplay: true,
-    //  autoplaySpeed: 3000
+     autoplay: true,
+     autoplaySpeed: 3000
    }
 
 
     return (
-    <div className="home-carousel">
+    <main className="home-carousel">
       	<Slider {...settings}>
-            <div className="tumblr">
+            <section className="tumblr">
                 <div className="tumblrText">
                     <div className="tumblr-text-slide-container">
                         <span className="slide-one-line-one">introducing tumblers</span> 
@@ -27,8 +27,8 @@ class HomeCarousel extends Component {
                         <span className="slide-one-line-three"> shop tumblers</span>
                     </div>
                 </div>
-          </div>
-            <div className="camping">
+          </section>
+            <section className="camping">
                 <div className="camping-text-container">
                     <div className="camping-text">
                         <div className="camping-text-slide-container">
@@ -50,10 +50,33 @@ class HomeCarousel extends Component {
                         </div>
                     </div>
                 </div>        
-            </div>
-          <div className="sunset"></div>
+            </section>
+          <section className="sunset">
+              <div className="camping-text-container">
+                    <div className="camping-text">
+                        <div className="camping-text-slide-container">
+                            <span className="slide-two-line-one">
+                                Hydro Flask Presents
+                            </span>
+                            <span className="slide-two-line-two">
+                                freezing <br/>
+                                time
+                            </span>
+                            <span className="slide-two-line-three">
+                                Experience the beauty of surfing <br/>
+                                rugged coastlines as captured <br/>
+                                through Mark Mclnnis's lens. 
+                            </span>
+                            <span className="slide-two-line-four">
+                                watch the film
+                            </span>
+                        </div>
+                    </div>
+                </div>        
+          </section>
+            
         </Slider>
-    </div>
+    </main>
         )
     }
 }

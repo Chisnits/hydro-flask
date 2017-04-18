@@ -10,6 +10,11 @@
     /*display: flex;
     justify-content: center;*/
 }
+.my-hydro-logo-image-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 /*.blue-and-purple-background{
     width: 100%;
     display: flex;
@@ -24,7 +29,5 @@
     width: 500px;
 }*/
 .my-hydro-logo{
-    /*width: 100%;*/
-    /*height: 50%;*/
     width: 35%;
 }

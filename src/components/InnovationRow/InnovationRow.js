@@ -7,26 +7,26 @@ import '../../styles/InnovationRow.css';
 class InnovationRow extends Component {
     render() {
         return (
-            <div className="InnovationRowWrapper">
-                <div className="innovationContainer">
+            <main className="InnovationRowWrapper">
+                <section className="innovationContainer">
                     <div className="innovation">
                         <InnovationShield/>
                         <span>Innovation</span> 
                     </div>
-                </div>
-                <div className="parksContainer">
+                </section>
+                <section className="parksContainer">
                     <div className="parks">
                     <ParksHeart />
                     <span>Parks For All</span>
                     </div>
-                </div>
-                <div className="ourStoryContainer">
+                </section>
+                <section className="ourStoryContainer">
                     <div className="ourStory"> 
                         <OurStory />
                         <span>Our Story</span>
                     </div>
-                </div>
-            </div>
+                </section>
+            </main>
         )
     }
 }
