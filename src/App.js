@@ -4,8 +4,6 @@ import InnovationRow from './components/InnovationRow/InnovationRow';
 import MyHydro from './components/MyHydro/MyHydro';
 import UnexpectedRefreshment from './components/UnexpectedRefreshment/UnexpectedRefreshment';
 import PictureRow from './components/PictureRow/PictureRow';
-import BlackFooter from './components/BlackFooter/BlackFooter';
-import MapFooter from './components/MapFooter/MapFooter';
 import './App.css';
 
 class App extends Component {
@@ -17,8 +15,6 @@ class App extends Component {
         <MyHydro/>
         <UnexpectedRefreshment/>
         <PictureRow/>
-        <BlackFooter/>
-        <MapFooter/>
       </div>
       
     );
@@ -26,3 +22,10 @@ class App extends Component {
 }
 
 export default App;
+
+// componentWillMount: function() {
+//       this.lock = new Auth0Lock('cq5AoOasFL74sk8nptgmU1IEadHKGAI3', 'chisnits.auth0.com');
+//   },
+//   render: function() {
+//     return (<Home lock={this.lock} />);
+//   }
