@@ -6,6 +6,8 @@
     "axios": "^0.15.3",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
+    "react-router": "^4.1.1",
+    "react-router-dom": "^4.1.1",
     "react-slick": "^0.14.11",
     "slick-carousel": "^1.6.0"
   },
