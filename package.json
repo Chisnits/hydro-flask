@@ -3,9 +3,17 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "auth0-lock": "^10.16.0",
     "axios": "^0.15.3",
+    "cors": "^2.8.3",
+    "express": "^4.15.3",
+    "express-session": "^1.15.3",
+    "passport": "^0.3.2",
+    "passport-auth0": "^0.6.0",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
+    "react-router": "^4.1.1",
+    "react-router-dom": "^4.1.1",
     "react-slick": "^0.14.11",
     "slick-carousel": "^1.6.0"
   },
