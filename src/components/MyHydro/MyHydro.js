@@ -7,14 +7,12 @@ class MyHydro extends Component {
     render() {
         return (
             <div className="my-hydro-wrapper">
-             <div className="my-hydro-wallpaper">
-                    {/*<BlueAndPurple/>*/}
-                <div className="my-hydro-logo-container">    
-                    <MyHydroLogo/>
-                {/*<div className="my-hydro-logo">*/}
-
+                        <BlueAndPurple /> 
+                <div className="test">
+                    <div className="my-hydro-logo-container">    
+                        <MyHydroLogo />
+                    </div>
                 </div>
-            </div>
             </div>
         )
     }
