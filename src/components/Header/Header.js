@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom'
 import CartCircle from './CartCircle';
 import HFLogo from './HFLogo';
 import '../../styles/Header.css';
@@ -21,7 +22,8 @@ class Header extends Component {
                 </div>
                 <div className="mainNav">
                     <div className="logoWrapper">
-                        <a> <HFLogo /> </a>
+                        <Link to="/"><HFLogo />
+                        </Link>
                     </div>
                     {/*<div className="linkContainerCenter"> */}
                         <ul className="linkContainer">

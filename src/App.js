@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Header from './components/Header/Header';
 import HomeCarousel from './components/HomeCarousel/HomeCarousel'; 
 import InnovationRow from './components/InnovationRow/InnovationRow'; 
 import MyHydro from './components/MyHydro/MyHydro';
@@ -13,7 +12,6 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Header/>
         <HomeCarousel/>
         <InnovationRow/>
         <MyHydro/>
