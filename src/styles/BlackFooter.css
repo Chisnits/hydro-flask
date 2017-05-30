@@ -2,12 +2,10 @@
     background-color: black;
     height: 500px;
     width: 100%;
-    /*display: flex;
-    align-items: center;*/
+    
 }
 .company-links{
-    /*display: flex;
-    flex-wrap: wrap;*/
+   
 }
 .company-links-column-1{
     width: 150px;
@@ -30,17 +28,12 @@
 .company-links-column-2{
     width: 150px;
     height: 200px;
-    float: left;
 }
 .company-links-column-3{
     width: 150px;
     height: 200px;
-    float: left;
 }
 .stay-in-touch-column{
-    /*display: flex;
-    justify-content: flex-end;*/
-    float: right;
     white-space: nowrap;
     color: white;
 }
