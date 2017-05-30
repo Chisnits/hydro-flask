@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import HFLogo from '../Header/HFLogo'
+// import HFLogo from '../Header/HFLogo'
 import '../../styles/BlackFooter.css';
 
 class BlackFooter extends Component {
@@ -27,7 +27,7 @@ class BlackFooter extends Component {
                                 </ul>
                         </div>
                         <div className="company-links-column-3">
-                            <ul className="support-list">
+                            <ul className="third-list">
                                 <li>Contact</li>
                                 <li>Dealer Central</li>
                                 <li>Pro Deal</li>
@@ -37,12 +37,21 @@ class BlackFooter extends Component {
                     </section>       
                     <section className="stay-in-touch-column">
                         <div>
-                            <h1>Stay in touch!</h1>
+                            <h1>    Stay in 
+                                <br />
+                                    touch!
+                            </h1>
                             <p>From new products to new ways to drink in the <br/>
                              adventure, we’ll take you along for the ride with the <br/>
                             latest on everything Hydro Flask.</p>
                             <input className="newsletter" type="text" placeholder="Enter your email to stay in touch"/>
-                            <div className="social-media-links"></div>
+                            <div className="social-media-links">
+                                <a><i className="fa fa-twitter" aria-hidden="true"></i></a>
+                                <a><i className="fa fa-instagram" aria-hidden="true"></i></a>
+                                <a><i className="fa fa-facebook" aria-hidden="true"></i></a>
+                                <a><i className="fa fa-youtube-play" aria-hidden="true"></i></a>
+                                <a><i className="fa fa-pinterest-p" aria-hidden="true"></i></a>
+                            </div>
                         </div>
                     </section>
                 </div>

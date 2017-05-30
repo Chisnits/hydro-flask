@@ -1,11 +1,16 @@
+h1,h2,h3,h4,fa{
+    color: white;
+}
 .black-footer-wallpaper{
     background-color: black;
     height: 500px;
     width: 100%;
-    
+    display: flex;
+    justify-content: space-between;
 }
 .company-links{
-   
+   display: flex;
+   text-align: center;
 }
 .company-links-column-1{
     width: 150px;
@@ -33,15 +38,32 @@
     width: 150px;
     height: 200px;
 }
+.third-list{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100%;
+}
 .stay-in-touch-column{
     white-space: nowrap;
     color: white;
+
 }
 .newsletter{
+    height: 37px;
+    width: 100%;
     font-size: 15px;
     letter-spacing: 0;
     color: #777;
-    background-color: #FFF;
     text-align: left;
     padding-left: 1.25em;
+    border-radius: 8px;
+    background: transparent;
+    background-color: white;
+}
+.social-media-links{
+    width: 250px;
+    font-size: 50px;
+    display: flex;
+    justify-content: space-between;
 }
