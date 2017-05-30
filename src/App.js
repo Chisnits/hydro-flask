@@ -13,14 +13,11 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Header/>
         <HomeCarousel/>
         <InnovationRow/>
         <MyHydro/>
         <UnexpectedRefreshment/>
         <PictureRow/>
-        <BlackFooter/>
-        <MapFooter/>
       </div>
       
     );
