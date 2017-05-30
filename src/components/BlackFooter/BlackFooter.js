@@ -41,16 +41,16 @@ class BlackFooter extends Component {
                                 <br />
                                     touch!
                             </h1>
-                            <p>From new products to new ways to drink in the <br/>
+                            <p className="description">From new products to new ways to drink in the <br/>
                              adventure, we’ll take you along for the ride with the <br/>
                             latest on everything Hydro Flask.</p>
                             <input className="newsletter" type="text" placeholder="Enter your email to stay in touch"/>
                             <div className="social-media-links">
-                                <a><i className="fa fa-twitter" aria-hidden="true"></i></a>
-                                <a><i className="fa fa-instagram" aria-hidden="true"></i></a>
-                                <a><i className="fa fa-facebook" aria-hidden="true"></i></a>
-                                <a><i className="fa fa-youtube-play" aria-hidden="true"></i></a>
-                                <a><i className="fa fa-pinterest-p" aria-hidden="true"></i></a>
+                                <a href="https://twitter.com/HydroFlask"><i className="fa fa-twitter" aria-hidden="true"></i></a>
+                                <a href="https://instagram.com/HydroFlask"><i className="fa fa-instagram" aria-hidden="true"></i></a>
+                                <a href="https://facebook.com/HydroFlask"><i className="fa fa-facebook" aria-hidden="true"></i></a>
+                                <a href="https://youtube.com/user/HydroFlask"><i className="fa fa-pinterest-p" aria-hidden="true"></i></a>
+                                <a href="https://pinterest.com/HydroFlask"><i className="fa fa-youtube-play" aria-hidden="true"></i></a>
                             </div>
                         </div>
                     </section>

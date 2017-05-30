@@ -1,4 +1,4 @@
-h1,h2,h3,h4,fa{
+h1,h2,h3,h4,.fa{
     color: white;
 }
 .black-footer-wallpaper{
@@ -15,7 +15,6 @@ h1,h2,h3,h4,fa{
 .company-links-column-1{
     width: 150px;
     height: 200px;
-    float: left;
 }
 .company-list{
     display: flex;
@@ -23,12 +22,14 @@ h1,h2,h3,h4,fa{
     flex-direction: column;
     height: 100%;
     border-right: solid white 2px;
+    color: #cccccc;
 }
 .support-list{
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     height: 100%;
+    color: #cccccc;
 }
 .company-links-column-2{
     width: 150px;
@@ -46,8 +47,10 @@ h1,h2,h3,h4,fa{
 }
 .stay-in-touch-column{
     white-space: nowrap;
-    color: white;
-
+    margin-right: 100px;
+}
+.description{
+    color: #cccccc;
 }
 .newsletter{
     height: 37px;
@@ -66,4 +69,5 @@ h1,h2,h3,h4,fa{
     font-size: 50px;
     display: flex;
     justify-content: space-between;
+    margin-top: 20px;
 }

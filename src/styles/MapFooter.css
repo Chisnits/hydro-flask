@@ -6,3 +6,12 @@
     width: 100%;
     background-position: 50% 50%;
 }
+#footer_logo{
+    width: 200px;
+    height: 120px;
+}
+.map-footer-logo{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
