@@ -1,7 +1,6 @@
 DROP TABLE IF EXISTS bottles;
 
 CREATE TABLE bottles (
-    id SERIAL PRIMARY KEY,
     bottleSize INTEGER(255),
     mouthSize VARCHAR(255),
     color VARCHAR(255),
@@ -9,7 +8,7 @@ CREATE TABLE bottles (
     price INTEGER(255)
 );
 
-INSERT INTO bottles (bottleSize, mouthSize, image, price) VALUES
+INSERT INTO bottles (bottleSize, mouthSize, color, image, price) VALUES
 (12, 'Standard Mouth', 'Cobalt', '../src/assets/12oz-standard-mouth/cobalt.jpg', 24.95),
 (12, 'Standard Mouth', 'Graphite', '../src/assets/12oz-standard-mouth/graphite.jpg', 24.95),
 (12, 'Standard Mouth', 'Lava', '../src/assets/12oz-standard-mouth/lava.jpg', 24.95),
