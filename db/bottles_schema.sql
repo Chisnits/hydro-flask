@@ -1,6 +1,7 @@
 DROP TABLE IF EXISTS bottles;
 
 CREATE TABLE bottles (
+    id SERIAL PRIMARY KEY,
     bottleSize INTEGER(255),
     mouthSize VARCHAR(255),
     color VARCHAR(255),
