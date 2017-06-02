@@ -3,7 +3,7 @@ DROP TABLE IF EXISTS bottles, bottletype;
 CREATE TABLE bottletype (
     id SERIAL PRIMARY KEY,
     type VARCHAR(225)
-)
+);
 
 INSERT INTO bottletype (type) VALUES
 ('Hydration'),
