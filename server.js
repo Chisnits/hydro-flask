@@ -31,15 +31,15 @@ db.bottles_schema((err, data) => {
 //   //Do something
 // })
 
-// app.get('/allbottles', function(req, res, next) {
-//   db.get_all_bottles(function(err, bottles) {
-//     if (err) {
-//       res.status(500).json(err);
-//     } else {
-//       res.json(bottles)
-//     }
-//   });
-// })
+app.get('/allbottles', function(req, res, next) {
+  db.get_all_bottles(function(err, bottles) {
+    if (err) {
+      res.status(500).json(err);
+    } else {
+      res.json(bottles)
+    }
+  });
+})
   
 
 
