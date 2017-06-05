@@ -6,7 +6,6 @@ class AllProducts extends Component {
     
     componentDidMount() {
         this.props.fetchBottles();
-        console.log(this.props.fetchBottles());
     }
 
     render() {
