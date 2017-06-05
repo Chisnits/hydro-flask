@@ -3,13 +3,14 @@ const bodyParser = require('body-parser');
 const cors = require('cors');
 const massive = require('massive');
 
-const config = require('./config.js');
 const app = module.exports = express();
 
 app.use(bodyParser.json());
 app.use(cors());
 
 app.use(express.static('./src'));
+
+const config = require('./config.js');
 
 // connect to Massive and get the db instance:
 var db = massive.connectSync({
@@ -18,16 +19,13 @@ var db = massive.connectSync({
   // console.log(db);
 
 // Set a reference to the massive instance on Express' app:
-// app.set('db', db);
+app.set('db', db);
 
-  // db.bottles.find({id: 1}, function(err,bottles){
-    
-  // })
-  db.bottles_schema((err, bottles) => {
-    console.log(bottles)
+db.bottles_schema((err, data) => {
+    console.log(data)
       if (err) console.log(err);
-      else res.send(bottles);
-  });
+      else console.log('All tables succefully reset');
+});
 
 // db.get_by_color(["white"], function(err, res) {
 //   //Do something
