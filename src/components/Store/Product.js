@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 
+import SwatchColors from './SwatchColors'
 import '../../styles/store/Product.css';
+
 
 class Product extends Component {
 
@@ -13,7 +15,7 @@ class Product extends Component {
                     Bottle Image
                 </div>
                 <div>
-                    Swatch Colors
+                    <SwatchColors />
                 </div>
             </div>
         );

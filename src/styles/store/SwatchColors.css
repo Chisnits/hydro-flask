@@ -1,0 +1,144 @@
+.swatch-container{
+    display: flex;
+    height: 90px;
+    width: 150px;
+    flex-wrap: wrap;
+}
+.cobalt-swatch {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-image: '../../assets/swatch-colors/cobalt.jpg';
+    background-size: cover;
+    background-color: darkblue;
+}
+.graphite-swatch {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-image: '../../assets/swatch-colors/graphite.jpg';
+    background-size: cover;
+    background-color: gray;
+}
+.kiwi-swatch {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-image: '../../assets/swatch-colors/kiwi.jpg';
+    background-size: cover;
+    background-color: lightgreen;
+}
+.lava-swatch {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-image: '../../assets/swatch-colors/lava.jpg';
+    background-size: cover;
+    background-color: darkred;
+}
+.lemon-swatch {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-image: '../../assets/swatch-colors/lemon.jpg';
+    background-size: cover;
+    background-color: yellow;
+}
+.mango-swatch{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-image: '../../assets/swatch-colors/mango.jpg';
+    background-size: cover;
+    background-color: orange;
+}
+.mint-swatch{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-image: '../../assets/swatch-colors/mint.jpg';
+    background-size: cover;
+    background-color: mintcream;
+    border: 1px solid black;
+}
+.pacific-swatch{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-image: '../../assets/swatch-colors/pacific.jpg';
+    background-size: cover;
+    background-color: lightblue;
+}
+.plum-swatch{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-image: '../../assets/swatch-colors/plum.jpg';
+    background-size: cover;
+    background-color: purple;
+}
+.raspberry-swatch{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-image: '../../assets/swatch-colors/raspberry.jpg';
+    background-size: cover;
+    background-color: lightpink;
+}
+.sage-swatch{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-image: '../../assets/swatch-colors/sage.jpg';
+    background-size: cover;
+    background-color: seagreen;
+}
+.forest-swatch{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-image: '../../assets/swatch-colors/forest.jpg';
+    background-size: cover;
+    background-color: darkgreen;
+}
+.citron-swatch{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-image: '../../assets/swatch-colors/citron.jpg';
+    background-size: cover;
+    background-color: yellowgreen;
+}
+.black-swatch{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-image: '../../assets/swatch-colors/black.jpg';
+    background-size: cover;
+    background-color: black;
+}
+.white-swatch{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-image: '../../assets/swatch-colors/white.jpg';
+    background-size: cover;
+    background-color: white;
+    border: 1px solid black;
+}
+.tangelo-swatch{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-image: '../../assets/swatch-colors/tangelo.jpg';
+    background-size: cover;
+    background-color: crimson;
+}
+.stainless-swatch{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-image: '../../assets/swatch-colors/stainless.jpg';
+    background-size: cover;
+    background-color: silver;
+}

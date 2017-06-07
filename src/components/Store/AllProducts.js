@@ -15,7 +15,7 @@ class AllProducts extends Component {
     renderBottles() {
         return _.map(this.props.bottles, bottle => {
             return (
-                <li className="list-group-item" key={bottle.id}>
+                <li key={bottle.id}>
                     {/*<img src={require("{bottle.image}")} />*/}
                     {/*<img src={{uri:"{bottle.image}"}} />*/}
                     {/*{bottle.image}*/}
@@ -29,7 +29,7 @@ class AllProducts extends Component {
         // console.log(this.props.bottles);
         return (
             <div>
-                <ul className="list-group">
+                <ul>
                     {this.renderBottles()}
                     <Product />
                 </ul>
