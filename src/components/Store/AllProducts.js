@@ -3,6 +3,9 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { fetchBottles } from '../../actions'
 
+
+import Product from './Product';
+
 class AllProducts extends Component {
     
     componentDidMount() {
@@ -13,7 +16,10 @@ class AllProducts extends Component {
         return _.map(this.props.bottles, bottle => {
             return (
                 <li className="list-group-item" key={bottle.id}>
-                    {bottle.image}
+                    {/*<img src={require("{bottle.image}")} />*/}
+                    {/*<img src={{uri:"{bottle.image}"}} />*/}
+                    {/*{bottle.image}*/}
+                    
                 </li>
             )
         })
@@ -23,9 +29,9 @@ class AllProducts extends Component {
         // console.log(this.props.bottles);
         return (
             <div>
-                <h3>Bottles</h3>
                 <ul className="list-group">
                     {this.renderBottles()}
+                    <Product />
                 </ul>
             </div>
         );

@@ -22,9 +22,11 @@ INSERT INTO bottletype (type) VALUES
 ('Coffee'),
 ('Beer & Spirits'),
 ('Food');
-
+-- ../../assets/12oz-standard-mouth
+-- ../../assets/18oz-standard-mouth
+-- ../../assets/21oz-standard-mouth
 INSERT INTO bottles (bottleSize, mouthSize, color, image, price, bottletypeid) VALUES
-(12, 'Standard Mouth', 'Cobalt', '../src/assets/12oz-standard-mouth/cobalt.jpg', 24.95, 1),
+(12, 'Standard Mouth', 'Cobalt', '../../assets/12oz-standard-mouth/cobalt.jpg', 24.95, 1),
 (12, 'Standard Mouth', 'Graphite', '../src/assets/12oz-standard-mouth/graphite.jpg', 24.95, 1),
 (12, 'Standard Mouth', 'Lava', '../src/assets/12oz-standard-mouth/lava.jpg', 24.95, 1),
 (12, 'Standard Mouth', 'Plum', '../src/assets/12oz-standard-mouth/plum.jpg', 24.95, 1),
