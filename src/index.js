@@ -17,13 +17,14 @@ import BlackFooter from './components/BlackFooter/BlackFooter';
 import MapFooter from './components/MapFooter/MapFooter';
 import { Innovation } from './components/Innovation/Innovation';
 import { ParksForAll } from './components/ParksForAll/ParksForAll';
-import { Cart } from './components/Cart/Cart'
+import Cart from './components/Cart/Cart'
 
 import reducers from './reducers';
 import AllProducts from './components/Store/AllProducts';
 import { getAllProducts } from './actions'
 
 const createStoreWithMiddleware = applyMiddleware(promise)(createStore);
+
 const middleware = [ thunk ];
 if (process.env.NODE_ENV !== 'production') {
   middleware.push(createLogger());
@@ -37,7 +38,7 @@ const store = createStore(
 store.dispatch(getAllProducts())
 
 ReactDOM.render((
-  <Provider store={createStoreWithMiddleware(reducers)(applyMiddleware(thunk))}>
+  <Provider store={(store)}>
     <Router>
       <div>
         <Route component={Header}/>

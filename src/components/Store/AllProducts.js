@@ -2,6 +2,7 @@ import _ from 'lodash';
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { fetchBottles } from '../../actions'
+import ProductsContainer from '../../containers/ProductsContainer';
 
 // import assets from '../../assets'
 import Product from './Product';
@@ -37,6 +38,7 @@ class AllProducts extends Component {
                 <ul>
                     {this.renderBottles()}
                     <Product />
+                    <ProductsContainer />
                 </ul>
             </div>
         );
