@@ -3,6 +3,18 @@
     width: 25vw;
     background-color: white;
 }
-.product-title{
-
+.top-image{
+    background-image: url("../../assets/categories/Category_Images_All.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.top-image{
+    text-transform: capitalize;
+    color: white;
+    font-size: 5em;
 }

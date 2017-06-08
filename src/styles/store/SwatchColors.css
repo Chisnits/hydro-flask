@@ -10,7 +10,7 @@
     border-radius: 50%;
     background-image: '../../assets/swatch-colors/cobalt.jpg';
     background-size: cover;
-    background-color: darkblue;
+    /*background-color: darkblue;*/
 }
 .graphite-swatch {
     height: 25px;
