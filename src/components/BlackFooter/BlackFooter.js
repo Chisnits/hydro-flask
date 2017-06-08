@@ -9,7 +9,7 @@ class BlackFooter extends Component {
                 <div className="black-footer-wallpaper">
                     <section className="company-links">
                         <div className="company-links-column-1">
-                            <h4>Company</h4>
+                            <h4 className="title">Company</h4>
                                 <ul className="company-list">
                                     <li>About</li>
                                     <li>Careers</li>
@@ -18,7 +18,7 @@ class BlackFooter extends Component {
                                 </ul>
                         </div>
                         <div className="company-links-column-2">
-                            <h4>Support</h4>
+                            <h4 className="title">Support</h4>
                                 <ul className="support-list">
                                     <li>FAQ</li>
                                     <li>Shipping</li>
@@ -37,7 +37,7 @@ class BlackFooter extends Component {
                     </section>       
                     <section className="stay-in-touch-column">
                         <div>
-                            <h1>    Stay in 
+                            <h1 className="title">    Stay in 
                                 <br />
                                     touch!
                             </h1>
