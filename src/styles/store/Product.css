@@ -1,8 +1,4 @@
-.product-container{
-    height: 45vh;
-    width: 25vw;
-    background-color: white;
-}
+
 .top-image{
     background-image: url("../../assets/categories/Category_Images_All.jpg");
     background-repeat: no-repeat;
@@ -17,4 +13,8 @@
     text-transform: capitalize;
     color: white;
     font-size: 5em;
+}
+.product-wrapper{
+    display: flex;
+    justify-content: center;
 }

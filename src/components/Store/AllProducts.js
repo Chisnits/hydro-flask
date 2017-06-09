@@ -37,9 +37,11 @@ class AllProducts extends Component {
                 </div>
                 <ul>
                     {this.renderBottles()}
-                    <Product />
-                    <div className="products-container">
-                        <ProductsContainer />
+                    <div className="product-wrapper">
+                        <Product />
+                            <div className="products-container">
+                                <ProductsContainer />
+                            </div>
                     </div>
                 </ul>
             </div>

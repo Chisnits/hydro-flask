@@ -1,5 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import SwatchColors from './Store/SwatchColors'
 
 const Product = ({ price, quantity, title, color }) => (
   <div>
