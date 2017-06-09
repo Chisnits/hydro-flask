@@ -2,6 +2,8 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Product from './Product'
 
+import '../styles/Cart.css'
+
 const Cart  = ({ products, total, onCheckoutClicked }) => {
   const hasProducts = products.length > 0
   const nodes = hasProducts ? (
@@ -15,12 +17,13 @@ const Cart  = ({ products, total, onCheckoutClicked }) => {
       />
     )
   ) : (
-    <em>Please add some products to cart.</em>
+    <em>You have no items in your shopping cart.</em>,
+    <em>Click <a>here</a> to continue shopping</em>
   )
 
   return (
-    <div>
-      <h3>Your Cart</h3>
+    <div className="cart-container">
+      <h3>BottleTitle</h3>
       <div>{nodes}</div>
       <p>Total: &#36;{total}</p>
       <button onClick={onCheckoutClicked}

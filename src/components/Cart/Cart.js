@@ -9,7 +9,6 @@ class Cart extends Component {
  
 
 
-
     render() {
         // console.log(this.props.bottles);
         return (
