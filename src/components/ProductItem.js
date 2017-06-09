@@ -2,8 +2,10 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Product from './Product'
 
+// import '../styles/store/Product.css'
+
 const ProductItem = ({ product, onAddToCartClicked }) => (
-  <div style={{ marginBottom: 20 }}>
+  <div>
     <Product
       title={product.title}
       image={product.image}

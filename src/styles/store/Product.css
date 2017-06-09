@@ -21,7 +21,20 @@
 .product-info-container{
     text-align: center;
 }
-.products-container{
+/*.products-container{
     display: flex;
     justify-content: center;
+}*/
+.wrap{
+    text-align: center;
+}
+.product-title{
+    font-weight: bold;
+    font-size: 2em;
+}
+.swatch-wrapper{
+    width: 10vw;
+}
+.swatch-container{
+    
 }

@@ -1,9 +1,10 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
+import '../styles/store/Product.css'
+
 const ProductsList = ({ title, children }) => (
-  <div>
-    <h3>{title}</h3>
+  <div className="wrap">
     <div>{children}</div>
   </div>
 )

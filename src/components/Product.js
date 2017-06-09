@@ -7,11 +7,15 @@ import '../styles/store/Product.css'
 const Product = ({ price, quantity, title, color, image }) => (
   <section>
     <div className="product-info-container">
-      <img src={image}/>
+      <div className="product-title">
+        {title}
+      </div>
       <br/>
-      {title} - &#36;{price} {color}{quantity ? ` x ${quantity}` : null}
-      <div className="swatch-container">
-        <div>
+      <img src={image} alt="water-bottle"/>
+      <br/>
+      {color}{quantity ? ` x ${quantity}` : null}
+      <div className="swatch-wrapper">
+        <div className="swatch-container">
           <SwatchColors />
         </div>
       </div>

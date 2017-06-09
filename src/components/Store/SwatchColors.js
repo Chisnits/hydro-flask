@@ -16,7 +16,7 @@ class SwatchColors extends Component {
     render() {
        
         return (
-            <div>
+            <div className="swatch-wrapper">
                 <div className="swatch-container">
                     <li className="cobalt-swatch"></li>
                     <li className="graphite-swatch"></li>
