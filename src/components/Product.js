@@ -2,10 +2,21 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import SwatchColors from './Store/SwatchColors'
 
-const Product = ({ price, quantity, title, color }) => (
-  <div>
-    {title} - &#36;{price} {color}{quantity ? ` x ${quantity}` : null}
-  </div>
+import '../styles/store/Product.css'
+
+const Product = ({ price, quantity, title, color, image }) => (
+  <section>
+    <div className="product-info-container">
+      <img src={image}/>
+      <br/>
+      {title} - &#36;{price} {color}{quantity ? ` x ${quantity}` : null}
+      <div className="swatch-container">
+        <div>
+          <SwatchColors />
+        </div>
+      </div>
+    </div>
+  </section>
 )
 
 Product.propTypes = {

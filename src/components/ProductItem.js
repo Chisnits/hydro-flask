@@ -6,6 +6,7 @@ const ProductItem = ({ product, onAddToCartClicked }) => (
   <div style={{ marginBottom: 20 }}>
     <Product
       title={product.title}
+      image={product.image}
       price={product.price}
       color={product.color} />
     <button

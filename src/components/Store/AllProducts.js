@@ -4,7 +4,7 @@ import { connect } from 'react-redux';
 import { fetchBottles } from '../../actions'
 import ProductsContainer from '../../containers/ProductsContainer';
 
-// import assets from '../../assets'
+import '../../styles/store/Product.css'
 import Product from './Product';
 
 class AllProducts extends Component {
@@ -20,8 +20,8 @@ class AllProducts extends Component {
                     <li key={bottle.id}>
                         {/*<img src={require("{bottle.image}")} />*/}
                         {/*<img src={{uri:"{bottle.image}"}} />*/}
-                        {/*{bottle.image}*/}
-                        {/*{bottle.color}*/}
+                        {/*{bottle.image}
+                        {bottle.color}*/}
                     </li>
                 </div>
             )
@@ -38,7 +38,6 @@ class AllProducts extends Component {
                 <ul>
                     {this.renderBottles()}
                     <div className="product-wrapper">
-                        <Product />
                             <div className="products-container">
                                 <ProductsContainer />
                             </div>

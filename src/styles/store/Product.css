@@ -18,3 +18,10 @@
     display: flex;
     justify-content: center;
 }
+.product-info-container{
+    text-align: center;
+}
+.products-container{
+    display: flex;
+    justify-content: center;
+}

@@ -13,6 +13,7 @@ const Cart  = ({ products, total, onCheckoutClicked }) => {
         price={product.price}
         quantity={product.quantity}
         color={product.color}
+        image={product.image}
         key={product.id}
       />
     )

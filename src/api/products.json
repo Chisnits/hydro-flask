@@ -1,8 +1,5 @@
 [
-  {"id": 1, "title": "iPad 4 Mini", "price": 500.01, "inventory": 2, "color": "Space Gray"},
-  {"id": 2, "title": "H&M T-Shirt White", "price": 10.99, "inventory": 10, "color": "White"},
-  {"id": 3, "title": "Charli XCX - Sucker CD", "price": 19.99, "inventory": 5, "color": "Black"},
-  {"id": 4, "title": "12 oz Standard Mouth", "price": 19.99, "inventory": 8, "color": "Lemon"},
-  {"id": 5, "title": "18 oz Standard Mouth", "price": 24.99, "inventory": 10, "color": "Sage"},
-  {"id": 6, "title": "21 oz Standard Mouth", "price": 29.99, "inventory": 10, "color": "Mango"}
+  {"id": 1, "title": "12 oz Standard Mouth", "image":"https://www.hydroflask.com/media/catalog/product/cache/1/image/480x/0dc2d03fe217f8c83829496872af24a0/h/y/hydro-flask-stainless-steel-vacuum-insulated-water-bottle-12-oz-standard-mouth-flex-cap-cobalt.jpg", "price": 19.99, "inventory": 10, "color": "Cobalt"},
+  {"id": 2, "title": "18 oz Standard Mouth", "image":"https://www.hydroflask.com/media/catalog/product/cache/1/image/480x/0dc2d03fe217f8c83829496872af24a0/h/y/hydro-flask-stainless-steel-vacuum-insulated-water-bottle-18-oz-standard-mouth-flex-cap-cobalt.jpg", "price": 24.99, "inventory": 10, "color": "Cobalt"},
+  {"id": 3, "title": "21 oz Standard Mouth", "image":"https://www.hydroflask.com/media/catalog/product/cache/1/image/480x/0dc2d03fe217f8c83829496872af24a0/h/y/hydro-flask-stainless-steel-vacuum-insulated-water-bottle-21-oz-standard-mouth-flex-cap-cobalt.jpg", "price": 29.99, "inventory": 10, "color": "Cobalt"}
 ]
