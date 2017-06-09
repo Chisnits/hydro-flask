@@ -24,7 +24,7 @@ const Cart  = ({ products, total, onCheckoutClicked }) => {
 
   return (
     <div className="cart-container">
-      <div>{nodes}</div>
+      <div className="wrap">{nodes}</div>
       <p>Total: &#36;{total}</p>
       <button onClick={onCheckoutClicked}
         disabled={hasProducts ? '' : 'disabled'}>

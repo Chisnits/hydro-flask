@@ -5,7 +5,7 @@ import '../styles/store/Product.css'
 
 const ProductsList = ({ title, children }) => (
   <div className="wrap">
-    <div>{children}</div>
+    <div className="actual-container">{children}</div>
   </div>
 )
 
