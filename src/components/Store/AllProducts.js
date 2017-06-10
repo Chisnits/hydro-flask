@@ -23,8 +23,8 @@ class AllProducts extends Component {
                     <li key={bottle.id}>
                         {/*<img src={require("{bottle.image}")} />*/}
                         {/*<img src={{uri:"{bottle.image}"}} />*/}
-                        {bottle.image}
-                        {bottle.color}
+                        {/*{bottle.image}
+                        {bottle.color}*/}
                         
                     </li>
                 </div>

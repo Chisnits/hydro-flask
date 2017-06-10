@@ -27,7 +27,7 @@ ProductsContainer.propTypes = {
   })).isRequired,
   addToCart: PropTypes.func.isRequired
 }
-
+// console.log('STATE',state);
 const mapStateToProps = state => ({
   products: getVisibleProducts(state.products)
 })

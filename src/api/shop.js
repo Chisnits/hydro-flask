@@ -2,6 +2,7 @@
  * Mocking client-server processing
  */
 import _products from './products.json'
+// import { fetchBottles } from '../actions'
 
 const TIMEOUT = 100
 
