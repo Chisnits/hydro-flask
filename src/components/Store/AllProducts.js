@@ -11,17 +11,21 @@ class AllProducts extends Component {
     
     componentDidMount() {
         this.props.fetchBottles();
-    }
+        console.log(this.props.bottles)
+}
 
     renderBottles() {
+            console.log('we made it here')
         return _.map(this.props.bottles, bottle => {
             return (
                 <div>
+                    hello
                     <li key={bottle.id}>
                         {/*<img src={require("{bottle.image}")} />*/}
                         {/*<img src={{uri:"{bottle.image}"}} />*/}
-                        {/*{bottle.image}
-                        {bottle.color}*/}
+                        {bottle.image}
+                        {bottle.color}
+                        
                     </li>
                 </div>
             )

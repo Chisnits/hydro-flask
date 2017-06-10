@@ -9,7 +9,7 @@ const ROOT_URL = 'http://localhost:3001';
 
 export function fetchBottles(){
     const request = axios(`${ROOT_URL}/allbottles`);
-
+    console.log(request);
     return {
         type: FETCH_BOTTLES,
         payload: request
