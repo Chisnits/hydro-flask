@@ -7,11 +7,13 @@ class SwatchColors extends Component {
         super(props);
 
         this.state = {
-            backgroundImage: ''
+
         }
     }
 
-
+    handleClick() {
+        
+    }
 
     render() {
        

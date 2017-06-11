@@ -2,11 +2,12 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Product from './Product'
 
-// import '../styles/store/Product.css'
+import '../styles/store/Product.css'
 
 const ProductItem = ({ product, onAddToCartClicked }) => (
-  <div>
+  <div className="entire-product">
     <Product
+      id={product.id}
       title={product.title}
       image={product.image}
       price={product.price}

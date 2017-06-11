@@ -18,7 +18,7 @@
     display: flex;
     justify-content: center;
 }
-.product-info-container{
+.product-container{
     text-align: center;
 }
 /*.products-container{
@@ -38,4 +38,10 @@
 .actual-container{
     display: flex;
     flex-wrap: wrap;
+}
+.image-hider{
+    display: none;
+}
+.entire-product{
+    /*display: none;*/
 }
