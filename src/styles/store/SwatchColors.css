@@ -1,3 +1,6 @@
+.swatch-displayer{
+    display: unset;
+}
 .swatch-wrapper{
     margin-left: 80px;
 }

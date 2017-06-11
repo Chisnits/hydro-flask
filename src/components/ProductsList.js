@@ -7,7 +7,7 @@ const ProductsList = ({ children }) => (
   <div className="wrap">
     <div className="actual-container">
       {children}
-       <div className="swatch-wrapper">
+       {/*<div className="swatch-wrapper">
                 <div className="swatch-container">
                     <li className="cobalt-swatch"></li>
                     <li className="graphite-swatch"></li>
@@ -28,7 +28,7 @@ const ProductsList = ({ children }) => (
                     <li className="stainless-swatch"></li>
                     
                 </div>
-            </div>
+            </div>*/}
     </div>
   </div>
 )

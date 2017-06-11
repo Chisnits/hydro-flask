@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Product from '../Product';
 
 import '../../styles/store/SwatchColors.css';
 
@@ -6,21 +7,28 @@ class SwatchColors extends Component {
     constructor(props) {
         super(props);
 
-        this.state = {
+    //     this.state = {
+    //         initialState: 'https://www.hydroflask.com/media/catalog/product/cache/1/image/480x/0dc2d03fe217f8c83829496872af24a0/h/y/hydro-flask-stainless-steel-vacuum-insulated-water-bottle-12-oz-standard-mouth-flex-cap-cobalt.jpg'
+    //     }
+    //     setState(updater, handleClick());
+    // }
 
-        }
+    // handleClick() {
+    //     setState('')
+    // }
     }
 
-    handleClick() {
-        
-    }
 
     render() {
        
         return (
+            <section>
+                
+            {/*<Product />*/}
+
             <div className="swatch-wrapper">
                 <div className="swatch-container">
-                    <li className="cobalt-swatch"></li>
+                    <li className={"cobalt-swatch swatch-displayer" + (this.props.handleClick ? 'show' : 'hidden')}></li>
                     <li className="graphite-swatch"></li>
                     <li className="kiwi-swatch"></li>
                     <li className="lava-swatch"></li>
@@ -40,6 +48,7 @@ class SwatchColors extends Component {
                     
                 </div>
             </div>
+            </section>
         );
     }
 }

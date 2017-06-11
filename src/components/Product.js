@@ -11,7 +11,7 @@ const Product = ({ id, price, quantity, title, color, image }) => (
     <div className="product-container">
       <div className="product-title">
         {title}
-        {id}
+        {/*{id}*/}
       </div>
       <br/>
       <img src={image} alt="water-bottle"/>
