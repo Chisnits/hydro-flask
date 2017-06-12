@@ -35,8 +35,8 @@ class Header extends Component {
                     <div className="cartContainer">
                         
                             <Link to="/checkout/cart"><span className="cart"> cart  </span>
-                            <CartCircle />
-                            <span className="items-in-cart">0</span>
+                            {/*<CartCircle />*/}
+                            <i className="fa fa-shopping-cart" aria-hidden="true"></i>
                             </Link>
                     </div>
                 </div>

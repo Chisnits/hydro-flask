@@ -60,7 +60,7 @@ a:hover{
     width: 300px;
     margin-top: 10px;
 }
-
+/*
 .cart-circle{
     height: 50px;
     margin-top: -10px;
@@ -70,11 +70,15 @@ a:hover{
     right: 196px;
     top: 60px;
     color: white;
-}
+}*/
 .cart{
     color: white;
 }
 .white{
     color: white;
 }
-
+.fa-shopping-cart{
+    color: white;
+    font-size: 2.5em;
+    margin-top: -5px;
+}
