@@ -31,7 +31,6 @@ a:hover{
 }
 .loginContainer{
     white-space: nowrap;
-    color: white;
     display: flex;
     justify-content: space-between;
     width: 15%
@@ -70,6 +69,9 @@ a:hover{
     margin-left: 15px;
 }
 .cart{
+    color: white;
+}
+.white{
     color: white;
 }
 

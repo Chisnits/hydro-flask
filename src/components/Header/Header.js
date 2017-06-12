@@ -10,10 +10,10 @@ class Header extends Component {
             <div>
                 <div className="loginBar">
                     <div className="promotionWrapper">
-                        <span className="promotion">free shipping on 2+ hydro flasks</span>
+                        <span className="promotion white">free shipping on 2+ hydro flasks</span>
                             <div className="loginContainer">
-                                <span><a>Log in</a></span>
-                                <span><a>Find a Store</a></span>
+                                <span><a className="white">Log in</a></span>
+                                <span><a className="white">Find a Store</a></span>
                             </div>
                     </div>
                     <div className="loginText">
@@ -28,8 +28,8 @@ class Header extends Component {
                     
                         <ul className="linkContainer">
                             <Link to="/allproducts"><li>shop</li></Link>
-                            <li><a>customize</a></li>
-                            <li><a>learn</a></li>
+                            <li><a className="white">customize</a></li>
+                            <li><a className="white">learn</a></li>
                         </ul>  
                     
                     <div className="cartContainer">
