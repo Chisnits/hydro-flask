@@ -21,10 +21,9 @@
 .product-container{
     text-align: center;
 }
-/*.products-container{
-    display: flex;
-    justify-content: center;
-}*/
+.entire-product{
+    margin-bottom: 50px;
+}
 .wrap{
     text-align: center;
 }
@@ -44,7 +43,7 @@
 }
 .add-to-cart{
     background-color: #00a0df;
-    width: 20vw;
+    width: 200px;
     height: 5vh;
     border-radius: 10px;
     border: 1px solid #00a0df;
@@ -54,4 +53,26 @@
 .add-to-cart:hover {
     background-color: white;
     color: #00a0df;
+}
+.checkout-btn {
+    background-color: #00a0df;
+    width: 200px;
+    height: 5vh;
+    border-radius: 10px;
+    border: 1px solid #00a0df;
+    text-transform: uppercase;
+    color: white;
+}
+.checkout-btn:hover {
+    background-color: white;
+    color: #00a0df;
+}
+.color-title{
+    text-transform: capitalize;
+}
+.cart-total{
+    font-size: 2.5em
+}
+.cart-quantity{
+    font-size: 2em;
 }

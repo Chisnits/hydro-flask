@@ -16,7 +16,7 @@ const Product = ({ id, price, quantity, title, color, image }) => (
       <br/>
       <img src={image} alt="water-bottle"/>
       <br/>
-      {color}{quantity ? ` x ${quantity}` : null}
+      <h3 className="color-title">{color}</h3><div className="cart-quantity">{quantity ? ` x ${quantity}` : null}</div>
       {/*<div className="swatch-wrapper">
         <div className="swatch-container">
           <div className="swatch-wrapper">
