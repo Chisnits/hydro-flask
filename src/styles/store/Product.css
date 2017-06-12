@@ -42,6 +42,16 @@
 .image-hider{
     display: none;
 }
-.entire-product{
-    /*display: none;*/
+.add-to-cart{
+    background-color: #00a0df;
+    width: 20vw;
+    height: 5vh;
+    border-radius: 10px;
+    border: 1px solid #00a0df;
+    text-transform: uppercase;
+    color: white;
+}
+.add-to-cart:hover {
+    background-color: white;
+    color: #00a0df;
 }

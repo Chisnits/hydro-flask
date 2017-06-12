@@ -2,7 +2,7 @@
  background: url(../assets/tumblr.jpg);
  background-size: cover;
  background-repeat: no-repeat;
- height: 550px;
+ height: 60vh;
  width: 100%;
 }
 .tumblrText{
@@ -15,7 +15,7 @@
 }
 .tumblr-text-slide-container{
   height: 300px;
-  width: 500px;
+  width: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -38,7 +38,7 @@
  background: url(../assets/camping.jpg);
  background-size: cover;
  background-repeat: no-repeat;
- height: 550px;
+ height: 60vh;
  width: 100%;
 }
 .camping-text{
@@ -77,6 +77,6 @@
  background: url(../assets/sunset.jpg);
  background-size: cover;
  background-repeat: no-repeat;
- height: 550px;
+ height: 60vh;
  width: 100%;
 }

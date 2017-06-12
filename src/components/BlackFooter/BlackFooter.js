@@ -44,7 +44,7 @@ class BlackFooter extends Component {
                             <p className="description">From new products to new ways to drink in the <br/>
                              adventure, we’ll take you along for the ride with the <br/>
                             latest on everything Hydro Flask.</p>
-                            <input className="newsletter" type="text" placeholder="Enter your email to stay in touch"/>
+                            <input className="newsletter" type="text" placeholder="Enter your email to stay in touch"/> 
                             <div className="social-media-links">
                                 <a href="https://twitter.com/HydroFlask"><i className="fa fa-twitter" aria-hidden="true"></i></a>
                                 <a href="https://instagram.com/HydroFlask"><i className="fa fa-instagram" aria-hidden="true"></i></a>

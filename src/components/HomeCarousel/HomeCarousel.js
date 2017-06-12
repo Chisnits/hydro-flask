@@ -5,7 +5,7 @@ import '../../styles/HomeCarousel.css';
 class HomeCarousel extends Component {
     render() {
      var settings = {
-     dots: true,
+     dots: false,
      infinite: true,
      slidesToScroll: 1,
      arrows: false,

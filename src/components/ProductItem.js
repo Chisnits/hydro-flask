@@ -12,7 +12,7 @@ const ProductItem = ({ product, onAddToCartClicked }) => (
       image={product.image}
       price={product.price}
       color={product.color} />
-    <button
+    <button className="add-to-cart"
       onClick={onAddToCartClicked}
       disabled={product.inventory > 0 ? '' : 'disabled'}>
       {product.inventory > 0 ? 'Add to cart' : 'Sold Out'}

@@ -14,6 +14,7 @@
 .company-links{
    display: flex;
    text-align: center;
+   align-items: center;
 }
 .company-links-column-1{
     width: 150px;
@@ -41,6 +42,7 @@
 .company-links-column-3{
     width: 150px;
     height: 200px;
+    margin-top: 75px;
 }
 .third-list{
     display: flex;
@@ -51,6 +53,8 @@
 .stay-in-touch-column{
     white-space: nowrap;
     margin-right: 100px;
+    display: flex;
+    align-items: center;
 }
 .description{
     color: #cccccc;
