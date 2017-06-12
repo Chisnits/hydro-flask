@@ -11,6 +11,8 @@ li{
 a:hover{
     opacity: .7;
     cursor: pointer;
+    color: inherit;
+    text-decoration: none;
 }
 
 .loginBar{
@@ -33,40 +35,41 @@ a:hover{
     white-space: nowrap;
     display: flex;
     justify-content: space-between;
-    width: 15%
+    width: 15%;
+    color: white;
 }
 .mainNav{
     display: flex;
     height: 70px;
     background-color: black;
     text-transform: uppercase;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .logoWrapper{
     display: flex;
     align-items: center;
-    justify-content: flex-start;
 }
 .HFLogo{
     width: 150px;
-
 }
-/*.linkContainerCenter{
-    display: flex;
-    justify-content: center;
-    width: 300px;
-}*/
 .linkContainer{
     white-space: nowrap;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     width: 300px;
+    margin-top: 10px;
 }
+
 .cart-circle{
     height: 50px;
-    margin-left: 15px;
+    margin-top: -10px;
+}
+.items-in-cart{
+    position: absolute;
+    right: 196px;
+    top: 60px;
+    color: white;
 }
 .cart{
     color: white;

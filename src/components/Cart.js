@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Product from './Product'
+import { Link } from 'react-router-dom';
 
 import '../styles/Cart.css'
 
@@ -19,7 +20,7 @@ const Cart  = ({ products, total, onCheckoutClicked }) => {
     )
   ) : (
     <em>You have no items in your shopping cart.</em>,
-    <em>Click <a>here</a> to continue shopping</em>
+    <em>Click <Link to="/allproducts">here</Link> to continue shopping</em>
   )
 
   return (

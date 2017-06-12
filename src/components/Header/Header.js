@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
 import CartCircle from './CartCircle';
 import HFLogo from './HFLogo';
 import '../../styles/Header.css';
@@ -7,7 +7,7 @@ import '../../styles/Header.css';
 class Header extends Component {
     render() {
         return (
-            <div>
+            <section>
                 <div className="loginBar">
                     <div className="promotionWrapper">
                         <span className="promotion white">free shipping on 2+ hydro flasks</span>
@@ -36,10 +36,11 @@ class Header extends Component {
                         
                             <Link to="/checkout/cart"><span className="cart"> cart  </span>
                             <CartCircle />
+                            <span className="items-in-cart">0</span>
                             </Link>
                     </div>
                 </div>
-            </div>
+            </section>
         )
     }
 }
