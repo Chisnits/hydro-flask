@@ -3,7 +3,7 @@ import axios from 'axios';
 import shop from '../api/shop'
 import * as types from '../constants/ActionTypes'
 
-export const FETCH_BOTTLES = 'fetch_bottles';
+export const FETCH_BOTTLES = 'FETCH_BOTTLES';
 
 const ROOT_URL = 'http://localhost:3001';
 

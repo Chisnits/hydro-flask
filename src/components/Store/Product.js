@@ -5,7 +5,6 @@ import '../../styles/store/Product.css';
 import ProductItem from '../Product'
 import bottles from './AllProducts'
 
-
 class Item extends Component {
 
     render() {
