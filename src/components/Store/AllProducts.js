@@ -2,25 +2,30 @@ import _ from 'lodash';
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { fetchBottles } from '../../actions'
+import ProductsContainer from '../../containers/ProductsContainer';
 
-// import assets from '../../assets'
+import '../../styles/store/Product.css'
 import Product from './Product';
 
 class AllProducts extends Component {
     
     componentDidMount() {
         this.props.fetchBottles();
-    }
+        console.log(this.props.bottles)
+}
 
     renderBottles() {
+            console.log('we made it here')
         return _.map(this.props.bottles, bottle => {
             return (
                 <div>
+                    hello
                     <li key={bottle.id}>
                         {/*<img src={require("{bottle.image}")} />*/}
                         {/*<img src={{uri:"{bottle.image}"}} />*/}
-                        {/*{bottle.image}*/}
-                        {/*{bottle.color}*/}
+                        {/*{bottle.image}
+                        {bottle.color}*/}
+                        
                     </li>
                 </div>
             )
@@ -36,7 +41,11 @@ class AllProducts extends Component {
                 </div>
                 <ul>
                     {this.renderBottles()}
-                    <Product />
+                    <div className="product-wrapper">
+                            <div className="products-container">
+                                <ProductsContainer />
+                            </div>
+                    </div>
                 </ul>
             </div>
         );

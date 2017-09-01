@@ -2,9 +2,10 @@ import React, { Component } from 'react';
 
 import SwatchColors from './SwatchColors'
 import '../../styles/store/Product.css';
+import ProductItem from '../Product'
+import bottles from './AllProducts'
 
-
-class Product extends Component {
+class Item extends Component {
 
     render() {
        
@@ -15,6 +16,7 @@ class Product extends Component {
                     Bottle Image
                 </div>
                 <div>
+                    {bottles.image}
                     <SwatchColors />
                 </div>
             </div>
@@ -23,4 +25,4 @@ class Product extends Component {
 }
 
 
-export default Product;
+export default Item;

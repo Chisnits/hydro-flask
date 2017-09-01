@@ -1,3 +1,9 @@
+.swatch-displayer{
+    display: unset;
+}
+.swatch-wrapper{
+    margin-left: 80px;
+}
 .swatch-container{
     display: flex;
     height: 90px;
@@ -10,7 +16,7 @@
     border-radius: 50%;
     background-image: '../../assets/swatch-colors/cobalt.jpg';
     background-size: cover;
-    /*background-color: darkblue;*/
+    background-color: darkblue;
 }
 .graphite-swatch {
     height: 25px;

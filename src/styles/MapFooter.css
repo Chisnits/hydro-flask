@@ -5,13 +5,23 @@
     height: 125px;
     width: 100%;
     background-position: 50% 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 #footer_logo{
     width: 200px;
     height: 120px;
 }
-.map-footer-logo{
-    display: flex;
-    align-items: center;
+.address{
+    color: white;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+.personal-name{
     margin-left: 50px;
+}
+.personal-information{
+    color: white;
+    font-size: 1.5em;
 }
