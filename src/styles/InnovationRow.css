@@ -18,6 +18,10 @@
     justify-content: center;
     align-items: center;
 }
+.innovation:hover{
+    opacity: .7;
+    cursor: pointer;
+}
 .InnovationShieldColor{
     fill: #0083C1;
 }
@@ -33,6 +37,10 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 10px;
+}
+.parks:hover{
+    opacity: .7;
+    cursor: pointer;
 }
 .parksHeart{
     fill:none; 
@@ -59,4 +67,8 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 10px;
+}
+.ourStory:hover{
+    opacity: .7;
+    cursor: pointer;
 }
