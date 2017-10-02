@@ -1,11 +1,24 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import CartCircle from './CartCircle';
+// import CartCircle from './CartCircle';
 import HFLogo from './HFLogo';
 import '../../styles/Header.css';
 
 class Header extends Component {
+    constructor(props){
+        super(props);
+        this.state = {
+            total: 0
+        }
+    }
+
+    getTotal(total){
+        this.setState({
+            total: total
+        })
+    }
     render() {
+        console.log(this.state.total)
         return (
             <section>
                 <div className="loginBar">

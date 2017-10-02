@@ -2,10 +2,12 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Product from './Product'
 import { Link } from 'react-router-dom';
+import { getTotal } from './Header/Header'
 
 import '../styles/Cart.css'
 
 const Cart  = ({ products, total, onCheckoutClicked }) => {
+  console.log(products.length);
   const hasProducts = products.length > 0
   const nodes = hasProducts ? (
     products.map(product =>

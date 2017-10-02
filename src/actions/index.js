@@ -1,20 +1,14 @@
 import _ from 'lodash'
-import axios from 'axios';
+// import axios from 'axios';
 import shop from '../api/shop'
 import * as types from '../constants/ActionTypes'
 
 export const FETCH_BOTTLES = 'FETCH_BOTTLES';
 
-const ROOT_URL = 'http://localhost:3001';
-
-export function fetchBottles(){
-    const request = axios(`${ROOT_URL}/allbottles`);
-    console.log(request);
-    return {
-        type: FETCH_BOTTLES,
-        payload: request
-};
-}
+// export function fetchBottles(){
+//     axios.get('/allbottles')
+//       .then(res => {console.log(res.data); return res.data})
+// }
 
 const receiveProducts = products => ({
   type: types.RECEIVE_PRODUCTS,

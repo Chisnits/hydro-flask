@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
-
-import SwatchColors from './SwatchColors'
-import '../../styles/store/Product.css';
-import ProductItem from '../Product'
+// import ProductItem from '../Product'
 import bottles from './AllProducts'
+import '../../styles/store/Product.css';
 
 class Item extends Component {
 
@@ -17,7 +15,6 @@ class Item extends Component {
                 </div>
                 <div>
                     {bottles.image}
-                    <SwatchColors />
                 </div>
             </div>
         );

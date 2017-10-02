@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import BlueAndPurple from './BlueAndPurple'
+// import BlueAndPurple from './BlueAndPurple'
 import MyHydroLogo from './MyHydroLogo'
 import '../../styles/MyHydro.css';
 

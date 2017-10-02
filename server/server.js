@@ -2,13 +2,13 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors');
 const massive = require('massive');
+const path = require('path');
 
 const app = module.exports = express();
 
+app.use(express.static('../build'));
 app.use(bodyParser.json());
 app.use(cors());
-
-app.use(express.static('./src'));
 
 const config = require('./config.js');
 
@@ -23,8 +23,11 @@ app.set('db', db);
 
 db.bottles_schema((err, data) => {
     console.log(data)
-      if (err) console.log(err);
-      else console.log('All tables succefully reset');
+      if (err){
+        console.log(err)
+      } else{ 
+        console.log('All tables succefully reset');
+      }
 });
 
 // db.get_by_color(["white"], function(err, res) {
@@ -36,6 +39,7 @@ app.get('/allbottles', function(req, res, next) {
     if (err) {
       res.status(500).json(err);
     } else {
+      console.log(bottles)
       res.json(bottles)
     }
   });

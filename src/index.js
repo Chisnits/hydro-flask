@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 import { HashRouter as Router, Route } from 'react-router-dom';
 import { createStore, applyMiddleware } from 'redux';
 import { Provider } from 'react-redux';
-import promise from 'redux-promise';
+// import promise from 'redux-promise';
 import thunk from 'redux-thunk';
 import { createLogger } from 'redux-logger';
 
@@ -23,7 +23,7 @@ import reducers from './reducers';
 import AllProducts from './components/Store/AllProducts';
 import { getAllProducts } from './actions'
 
-const createStoreWithMiddleware = applyMiddleware(promise)(createStore);
+// const createStoreWithMiddleware = applyMiddleware(promise)(createStore);
 
 const middleware = [ thunk ];
 if (process.env.NODE_ENV !== 'production') {
